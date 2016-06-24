@@ -62,7 +62,7 @@
 		}
 
 		.watermark {
-			z-index: 2;
+			z-index: -1;
 			position:absolute;
 			margin-left: -115px;
 		}
@@ -130,7 +130,7 @@
 
 			/* Marca d'água */
 			.watermark {
-				z-index: 2;
+				z-index: -1;
 				position:absolute;
 				margin-left: -115px;
 			}
@@ -141,7 +141,7 @@
 
 </head>
 	<body>
-		<?php for ($i = 1; $i <= 2000; $i++): ?>
+		<?php for ($i = 1; $i <= 10; $i++): ?>
 		<div class="bilhete">
 			<div class="canhoto">
 				<img src="watermark.jpg" class="watermark">
