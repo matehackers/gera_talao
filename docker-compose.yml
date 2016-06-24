@@ -1,0 +1,7 @@
+php-xdebug:
+ image: siworks/php-nginx
+ volumes:
+ - ./:/home/morvanabonin/Projetos/rifa
+ - ./default.conf:/etc/nginx/sites-available/default.conf
+ ports:
+ - "8090:80"
